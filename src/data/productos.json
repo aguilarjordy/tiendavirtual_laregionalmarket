@@ -1,0 +1,218 @@
+[
+  {
+    "id": 1,
+    "nombre": "Café orgánico de Cusco",
+    "precio": 25.00,
+    "imagen": "https://www.rayvi-cafe.com/wp-content/uploads/2018/10/8-scaled.jpg",
+    "descripcion": "Café artesanal de altura, con sabor intenso y aroma profundo.",
+    "categoria": "Café"
+  },
+  {
+    "id": 2,
+    "nombre": "Quinua Real de Puno",
+    "precio": 15.00,
+    "imagen": "https://www.zonasin.es/ControlIntegral/imagenes/articulos/F72000-art.jpg",
+    "descripcion": "Grano andino nutritivo, ideal para platos saludables y energéticos.",
+    "categoria": "Superfoods"
+  },
+  {
+    "id": 3,
+    "nombre": "Cacao de polvo 100% Ecologico Zuma 250 gr",
+    "precio": 20.00,
+    "imagen": "https://www.ango.com.pe/wp-content/uploads/2023/03/Copia-de-Copia-de-modelo-1-modelo-2-modelo-3-104.png",
+    "descripcion": "Cacao aromático de la selva peruana, perfecto para repostería fina.",
+    "categoria": "Cacao"
+  },
+  {
+    "id": 4,
+    "nombre": "Chifles de 200 gr",
+    "precio": 5.00,
+    "imagen": "https://pruebalo.pe/wp-content/uploads/2022/12/Chifle-bolsa-personal.jpg",
+    "descripcion": "Snack crocante de plátano, ideal para compartir en cualquier momento.",
+    "categoria": "Snacks"
+  },
+  {
+    "id": 5,
+    "nombre": "Yogurt Griego 100% natural el miski 1L",
+    "precio": 21.00,
+    "imagen": "https://florayfauna.vtexassets.com/arquivos/ids/156923/YOGURT-GRIEGO-BAJO-EN-GRASA-1-LT-ABUELA-1-3179.jpg?v=637596430443230000",
+    "descripcion": "Yogurt cremoso y natural, elaborado con leche de granja.",
+    "categoria": "Abarrotes"
+  },
+  {
+    "id": 6,
+    "nombre": "Yogurt frutado arándano la molina",
+    "precio": 12.40,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTptCqUaVEbNNhIEuXQtV7IIpuYsKMvTe-ttKrvvpXIDrJAxHCiG4Yaz6CnERA1bMGcyE8&usqp=CAU",
+    "descripcion": "Yogurt con sabor a arándano, fresco y lleno de antioxidantes.",
+    "categoria": "Abarrotes"
+  },
+  {
+    "id": 7,
+    "nombre": "Queso de cabra Berg Milch 250 gr",
+    "precio": 24.50,
+    "imagen": "https://wongfood.vtexassets.com/arquivos/ids/682015-800-auto?v=638384854925230000&width=800&height=auto&aspect=true",
+    "descripcion": "Elaborado de las mejores manos de Pozuzo en Pasco.",
+    "categoria": "Abarrotes"
+  },
+  {
+    "id": 8,
+    "nombre": "Yogurt frutado Guanabana mantaro",
+    "precio": 25.00,
+    "imagen": "https://florayfauna.vtexassets.com/arquivos/ids/165287/Yogurt-Frutado-Guanabana-Mantaro-1-L.jpg?v=638581447900400000",
+    "descripcion": "Yogurt tropical con guanábana, refrescante y nutritivo.",
+    "categoria": "Abarrotes"
+  },
+  {
+    "id": 9,
+    "nombre": "kero Aloe 300 ml",
+    "precio": 4.50,
+    "imagen": "https://plazavea.vteximg.com.br/arquivos/ids/31375716-450-450/20196997.jpg?v=638838897084070000",
+    "descripcion": "Bebida natural con aloe vera, ideal para hidratar y revitalizar.",
+    "categoria": "Bebidas"
+  },
+  {
+    "id": 10, 
+    "nombre": "Naturale sabor marayacura 1L",
+    "precio": 11.00,
+    "imagen": "https://plazavea.vteximg.com.br/arquivos/ids/530369-418-418/20162611.jpg",
+    "descripcion": "Refresco exótico, perfecto para días calurosos.",
+    "categoria": "Bebidas"
+  },
+  {
+    "id": 11,
+    "nombre": "Café orgánico kallpa 500 gr",
+    "precio": 36.00,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuHPWnetAaiTO_YhsWFvAGOvZwBHRn62VWEg&s",
+    "descripcion": "Café premium de Amazonas, con cuerpo balanceado y notas florales.",
+    "categoria": "Café"
+  },
+  {
+    "id": 12,
+    "nombre": "Kola escocesa 550 ml",
+    "precio": 5.50,
+    "imagen": "https://www.monde-selection.com/wp-content/uploads/2024/05/1041007.png",
+    "descripcion": "Gaseosa tradicional peruana, dulce y refrescante.",
+    "categoria": "Bebidas"
+  },
+  {
+    "id": 13,
+    "nombre": "Energina 3L",
+    "precio": 15.00,
+    "imagen": "https://group-ism.com/wp-content/uploads/2023/06/energina-b-3-1.png",
+    "descripcion": "Bebida energética de gran tamaño, ideal para compartir.",
+    "categoria": "Bebidas"
+  },
+  {
+    "id": 14,
+    "nombre": "Nectarina piña 600 ml",
+    "precio": 4.40,
+    "imagen": "https://images.rappi.pe/products/1677078092763_1677078089522_1677078087170.png",
+    "descripcion": "Jugo de piña natural, delicioso y sin conservantes.",
+    "categoria": "Bebidas"
+  },
+  {
+    "id": 15,
+    "nombre": "Chilcano Bar el tabernero 275 ml",
+    "precio": 8.00,
+    "imagen": "https://sumon.com.pe/wp-content/uploads/2024/10/rtd-tabernero-chilcano-bar-limon-botella-275ml.webp",
+    "descripcion": "Cóctel listo para servir, con pisco y limón.",
+    "categoria": "Licores"
+  },
+  {
+    "id": 16,
+    "nombre": "Cerveza la candelaria blanquirroja",
+    "precio": 11.00,
+    "imagen": "https://bodegamarytierra.com.pe/wp-content/uploads/2024/04/Botella-Jora-Amber-Ale-300x300.png",
+    "descripcion": "Cerveza artesanal peruana, con sabor suave y patriótico.",
+    "categoria": "Licores"
+  },
+  {
+    "id": 17,
+    "nombre": "Cacao de San Martín",
+    "precio": 20.00,
+    "imagen": "https://d20f60vzbd93dl.cloudfront.net/uploads/tienda_010816/tienda_010816_84ae0a1a9ac4cc2d2ae93a534b1dc6a685ad065c_producto_medium_100.png",
+    "descripcion": "Cacao fino de aroma, cosechado en la selva peruana.",
+    "categoria": "Cacao"
+  },
+  {
+    "id": 18,
+    "nombre": "Chifles de 300 gr",
+    "precio": 5.00,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGfqaLlg0Mk8PWuatkgu4cUcBsEuVaCnvxyQ&s",
+    "descripcion": "Chifles de oxapampa con sabor único y exquisito.",
+    "categoria": "Snacks"
+  },
+  {
+    "id": 19,
+    "nombre": "Yogurt Griego 1k el miski",
+    "precio": 21.00,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyYck7Nm5GCzCzhY5bIpZPeZrTXKy2YyvI5Q&s",
+    "descripcion": "Elaborados en granjas con historia y sabor puro.",
+    "categoria": "Abarrotes"
+  },
+  {
+    "id": 20,
+    "nombre": "Yogurt frutado vainilla la molina",
+    "precio": 12.40,
+    "imagen": "https://images.rappi.pe/products/1693700599731_1693700594704_1693700594776.jpg",
+    "descripcion": "Elaborados en granjas con historia y sabor puro.",
+    "categoria": "Abarrotes"
+  },
+  {
+    "id": 21,
+    "nombre": "Café orgánico de Cusco",
+    "precio": 25.00,
+    "imagen": "https://vegaperu.vtexassets.com/arquivos/ids/160509/230546.jpg?v=637932357824300000",
+    "descripcion": "Café 100% orgánico cultivado en las alturas del Cusco.",
+    "categoria": "Café"
+  },
+  {
+    "id": 22,
+    "nombre": "Quinua Real de Puno 450 gr",
+    "precio": 15.00,
+    "imagen": "https://cuscomara.pe/cdn/shop/products/bolsaquinuapeladaa.jpg?v=1663127235&width=1946",
+    "descripcion": "Granos de quinua de alta calidad provenientes de Puno.",
+    "categoria": "Superfoods"
+  },
+  {
+    "id": 23,
+    "nombre": "Cacao de Oxapampa",
+    "precio": 20.00,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL4LqZGrJOWf8lZ6jUEJRwtFJszakZ0dhVGA&s",
+    "descripcion": "Cacao fino de aroma, cosechado en la selva peruana.",
+    "categoria": "Cacao"
+  },
+  {
+    "id": 24,
+    "nombre": "Chifles de 500 gr",
+    "precio": 5.00,
+    "imagen": "https://www.amigofoods.com/cdn/shop/products/de-la-abuelita-plantain-chips-salted-chifles-salados-net-wt-4-4-oz-6.png?v=1695110991",
+    "descripcion": "Chifles de oxapampa con sabor único y exquisito.",
+    "categoria": "Snacks"
+  },
+  {
+    "id": 25,
+    "nombre": "Yogurt Griego 1k el miski",
+    "precio": 21.00,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyYck7Nm5GCzCzhY5bIpZPeZrTXKy2YyvI5Q&s",
+    "descripcion": "Elaborados en granjas con historia y sabor puro.",
+    "categoria": "Abarrotes"
+  },
+  {
+    "id": 26,
+    "nombre": "Yogurt frutado arándano la molina",
+    "precio": 12.40,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTptCqUaVEbNNhIEuXQtV7IIpuYsKMvTe-ttKrvvpXIDrJAxHCiG4Yaz6CnERA1bMGcyE8&usqp=CAU",
+    "descripcion": "Elaborados en granjas con historia y sabor puro.",
+    "categoria": "Abarrotes"
+  },
+  {
+    "id": 27,
+    "nombre": "Yogurt frutado vainilla la molina",
+    "precio": 12.40,
+    "imagen": "https://images.rappi.pe/products/1693700599731_1693700594704_1693700594776.jpg",
+    "descripcion": "Elaborados en granjas con historia y sabor puro.",
+    "categoria": "Abarrotes"
+  }
+]

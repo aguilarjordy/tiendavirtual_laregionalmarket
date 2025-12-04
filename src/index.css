@@ -1,0 +1,191 @@
+body {
+  padding-top: 80px; /* Ajuste perfecto para un navbar fijo */
+}
+/* NAVBAR ANIMADO CON SCROLL */
+.navbar {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(8px);
+}
+
+.navbar-anim {
+  opacity: 0;
+  transform: translateY(-10px);
+  animation: navbarFade .4s ease-out forwards;
+}
+
+@keyframes navbarFade {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.navbar-scrolled {
+  background-color: #0d6f41 !important;
+  box-shadow: 0 3px 10px rgba(0,0,0,.2);
+}
+
+.nav-anim:hover {
+  transform: translateY(-1px);
+  color: #eef5e8 !important;
+}
+
+/* Botones del navbar */
+.nav-btn-anim {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.nav-btn-anim:hover {
+  transform: scale(1.04);
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.6);
+}
+/* 🌿 Efecto ecológico elegante */
+.product-card {
+  transition: all 0.3s ease;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 128, 0, 0.2);
+}
+
+/* 🖼️ Contenedor de imagen — tamaño uniforme y centrado */
+.product-image-wrapper {
+  position: relative;
+  width: 100%;
+  height: 220px; /* tamaño fijo para uniformidad */
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f9fa; /* fondo neutro si falta imagen */
+  border-bottom: 3px solid rgba(25, 135, 84, 0.4); /* verde suave */
+}
+
+/* 📸 Imagen del producto */
+.product-image {
+  width: 110%; /* muestra más área reduciendo el “zoom” */
+  height: 110%;
+  object-fit: cover;
+  object-position: center;
+  transform: scale(0.9); /* se aleja visualmente */
+  transition: transform 0.5s ease, opacity 0.3s ease;
+}
+
+.product-card:hover .product-image {
+  transform: scale(0.98);
+  opacity: 0.9;
+}
+
+/* 🪴 Ajuste responsivo */
+@media (max-width: 768px) {
+  .product-image-wrapper {
+    height: 200px;
+  }
+}
+
+@media (max-width: 576px) {
+  .product-image-wrapper {
+    height: 180px;
+  }
+}
+
+/* 🛍️ Botón */
+.btn-success {
+  background-color: #198754;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-success:hover {
+  background-color: #157347;
+}
+
+/* 🪵 Fondo de la sección de productos */
+.productos-section {
+  background-color: #f8f9fa; /* gris muy claro */
+  border-top: 2px solid rgba(25, 135, 84, 0.2);
+  border-bottom: 2px solid rgba(25, 135, 84, 0.2);
+}
+
+/* ✨ Animación de entrada (fade-in) */
+.fade {
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.fade.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* 🪟 Modal superpuesto */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.6); /* fondo oscuro semitransparente */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2000;
+  backdrop-filter: blur(3px);
+  overflow: hidden;
+}
+
+.modal-content {
+  background: #fff;
+  border-radius: 1rem;
+  border: 2px solid rgba(25, 135, 84, 0.2);
+  padding: 1.5rem;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  max-width: 450px;
+  position: relative;
+  z-index: 2100;
+  animation: fadeInModal 0.3s ease;
+}
+
+.modal-header {
+  background-color: #f8f9fa;
+}
+
+.modal-title {
+  color: #198754 !important;
+}
+
+.modal-body img {
+  transition: transform 0.3s ease;
+}
+
+.modal-body img:hover {
+  transform: scale(1.02);
+}
+
+@keyframes fadeInModal {
+  from {
+    opacity: 0;
+    transform: scale(0.85);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 576px) {
+  .modal-content {
+    width: 95%;
+    max-width: 360px;
+    padding: 1.2rem;
+  }
+}
